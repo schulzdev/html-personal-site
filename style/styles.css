@@ -1,0 +1,56 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	background-image: linear-gradient(
+		to top,
+		#fdcbf1 0%,
+		#fdcbf1 1%,
+		#e6dee9 100%
+	);
+}
+
+.logo-image {
+	width: 100px;
+	height: 100px;
+}
+
+.title-bar {
+	display: flex;
+	justify-content: space-between;
+	margin: 0 10%;
+}
+
+.discord {
+	font-weight: 300;
+}
+
+.card {
+	background-color: gray;
+	border-radius: 15px;
+	padding: 30px;
+	margin: 3% 20%;
+	color: whitesmoke;
+}
+
+.welcome-note h1 {
+	font-size: 3rem;
+	margin-bottom: 50px;
+}
+
+.short-info p {
+	font-size: 20px;
+}
+
+.short-info hr {
+	border-style: solid;
+	color: whitesmoke;
+}
+
+.projects-wrapper {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+.project {
+	margin: 2%;
+}
